@@ -30,7 +30,7 @@ const socialMediaLinks = {
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
-}
+};
 
 // Skills Section
 
@@ -158,14 +158,21 @@ const workExperiences = {
       company: "Ghana Education Service",
       companylogo: require("./assets/images/ges.png"),
       date: "September 2015 – Present",
-      desc: "Teaches ICT at all levels in Benso Senior High School, with over 200 students and also manages the IT laboratory and its infrastructure"
+      desc: "Teaches ICT at all levels in Benso Senior High School, with over 200 students."
     },
     {
       role: "Regional Facilitator",
       company: "Ghana Statistical Service",
       companylogo: require("./assets/images/gss.jpg"),
       date: "June 2021 – July 2021",
-      desc: "Trained 45 field officers on the usage of technological gadgets and also enumerated a population of about 2000 during the 2021 population and housing census in Ghana"
+      desc: "Trained 45 field officers on the usage of technological gadgets."
+    },
+    {
+      role: "FrontEnd Developer",
+      company: "Oya Ghana",
+      companylogo: require("./assets/images/oyaLogo.png"),
+      date: "December 2022 – Date",
+      desc: "Design the UI for the web application of Oya Ghana."
     }
   ]
 };
@@ -199,18 +206,6 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/rudiachemicals.png"),
-      projectName: "Rudia Chemicals",
-      projectDesc:
-        "An electron desktop database application for a pharmaceutical company to manage sales and stocks of pharmaceutical products",
-      footerLink: [
-        {
-          name: "View Code",
-          url: "https://github.com/cobbygraves/pharmacy.git"
-        }
-      ]
-    },
-    {
       image: require("./assets/images/MERN.PNG"),
       projectName: "MERN Certificate",
       projectDesc:
@@ -224,16 +219,15 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/REACT.PNG"),
-      projectName: "REACT Certificate",
+      image: require("./assets/images/rudiachemicals.png"),
+      projectName: "Rudia Chemicals",
       projectDesc:
-        "Certificate of completion of React FrontEnd developer course on Udemy with instructor Maximillian Schwarzmuller",
+        "An electron desktop database application for a pharmaceutical company to manage sales and stocks of pharmaceutical products",
       footerLink: [
         {
-          name: "View Course",
-          url: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
+          name: "View Code",
+          url: "https://github.com/cobbygraves/pharmacy.git"
         }
-        //  you can add extra buttons here.
       ]
     }
   ],
