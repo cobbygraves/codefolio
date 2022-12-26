@@ -14,7 +14,7 @@ const greeting = {
   username: "Ernest Amoah",
   title: "Hi, I'm Cobby",
   subTitle: emoji(
-    "An experienced MERN stack developer who develops web, mobile and desktop applications using JavaScript, ReactJS, NextJS, ElectronJS, React-Native, Node, ExpressJS & other UI libraries"
+    "An experienced MERN stack developer who develops web applications using JavaScript/TypeScript, ReactJS, NodeJS, ExpressJS, TailwindCSS, MUI & AWS cloud services"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1l4zEYOW2VF6MUGAMCcgfWwDZ7scky5US/view?usp=sharing", // Set to empty to hide the button
@@ -37,10 +37,10 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "A SELF TAUGHT FULL STACK WEB, MOBILE & DESKTOP APPLICATION DEVELOPER WHO IS OPEN TO NEW IDEAS OF TECHNOLOGY",
+    "A SELF TAUGHT FULL STACK WEB APPLICATION DEVELOPER WHO IS OPEN TO NEW IDEAS OF TECHNOLOGY",
   skills: [
     emoji(
-      "⚡ Create highly interactive Front End / User Interfaces for your web, mobile and desktop applications"
+      "⚡ Create highly interactive Front End / User Interfaces for your web applications"
     ),
     emoji(
       "⚡ Develop highly responsive backend server with Node, Express and MongoDB "
